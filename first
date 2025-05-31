@@ -1,15 +1,29 @@
-<!doctype html>
-<html>
-  <head>
-    <title>My First Web Page</title>
-  </head>
-  <body>
-    <h1>HTML is Structure Only</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae temporibus esse suscipit nisi ad.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloribus eos perspiciatis.</p>
-    <footer>
-      <hr>
-      <p>Tech Support: yeah.right@server-is-down.com</p>
-    </footer>
-  </body>
-</html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sashant Shretha">
+    <meta name="description" content="This page contains all the things all the I am learning how to create as I learn HTML">
+    <title>My First Page</title>
+    <link rel="icon" href="monday.jpg" type="image/x-icon"><!--   This will add the image icon to the side of the page title -->
+    <link rel="stylesheet" href="main.css" type="text/CSS">
+</head>
+<body>
+    <h1> Hello Sashant</h1>
+    <hr>
+    <h2>I am ready to learn this code</h2>
+    <p> Welcome to the Frontend World</p>
+    <p> Today is 30 of May.
+        <br> ... I learn more about web development.
+    </p>
+    <hr>
+    <h2>I am ready to learn this code</h2>
+    <p> This is my daily task</p>
+    <p> The abbebration sentences like <abbr title="Gandaki Boarding School">GBS</abbr>
+    </p>
+    <!-- This helps the short name to display full name while hovering to it. -->
+    
+    <hr>
+    &lt;&lt;&lt;&lt; &copy;<a href="about.html">Sashant Shrestha</a>  &gt;&gt;
+&gt;&gt;
+</body>
+</html> 

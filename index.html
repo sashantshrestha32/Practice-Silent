@@ -1,29 +1,89 @@
-<html lang="en">   
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Sashant Shretha">
-    <meta name="description" content="This page contains all the things all the I am learning how to create as I learn HTML">
-    <title>My First Page</title>
-    <link rel="icon" href="monday.jpg" type="image/x-icon"><!--   This will add the image icon to the side of the page title -->
-    <link rel="stylesheet" href="main.css" type="text/CSS">
+    <meta name="author" content="Dave Gray">
+    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+    <title>My First Web Page</title>
+    <link rel="icon" href="monday.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
+
 <body>
-    <h1> Hello Sashant</h1>
+    <h1>My Goals for this Year 2025</h1>
+
     <hr>
-    <h2>I am ready to learn this code</h2>
-    <p> Welcome to the Frontend World</p>
-    <p> Today is 30 of May.
-        <br> ... I learn more about web development.
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">Learning Frontent</a>
+            </li>
+            <li>
+                <a href="#vacation">Planning a Vacation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>This is my first web page.</p>
+
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how:</p>
+        <ol>
+            <li>...I learn more about web dev.</li>
+            <li>...I plan out my schedule.</li>
+            <li>...I use resources from <abbr title="Mozilla Developer Network">
+                    <a href="https://developer.mozilla.org/">MDN</a>
+                </abbr>.</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="vacation">
+        <h2>I Am Also Planning a Vacation</h2>
+        <p>I've been working hard and <em>really need a getaway</em>.</p>
+        <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
+        <img src="img/Bhatura.jpg" alt="This is a picture of Bhatura" />
+        <h3>Place I'd Like to Visit</h3>
+        <ul>
+            <li>
+                <p>I've heard good things about the Caribbean.</p>
+            </li>
+            <li>
+                <p>I've heard good things about going here:</p>
+                <address>
+                    Margaritaville Island Reserve Riviera Cancún<br>
+                    Bahia Petempich Puerto Morelos, Mexico<br>
+                    Colonia Morelos, México 77580
+                </address>
+            </li>
+        </ul>
+        <!-- TODO: Add more places -->
+        <h3>Places I Want to Avoid</h3>
+        <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>These are also cold.</dd>
+        </dl>
+    </section>
+
+    <hr>
+    &lt;&lt;&lt; &copy; <a href="about.html">Sashant Shrestha</a> &gt;&gt;&gt;
+    <p>
+        <a href="#">Back to Top</a>
+        <!-- This is used to link it to the top page   -->
     </p>
-    <hr>
-    <h2>I am ready to learn this code</h2>
-    <p> This is my daily task</p>
-    <p> The abbebration sentences like <abbr title="Gandaki Boarding School">GBS</abbr>
-    </p>
-    <!-- This helps the short name to display full name while hovering to it. -->
-    
-    <hr>
-    &lt;&lt;&lt;&lt; &copy; Sashant Shrestha &gt;&gt;
-&gt;&gt;
 </body>
-</html> 
+
+</html>
